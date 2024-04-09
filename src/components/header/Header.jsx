@@ -11,6 +11,7 @@ const Header = () => {
                         <ul className="header-navigation-items"> 
                             <li className="header-navigation-item"><a href="#">Home</a></li>
                             <li className="header-navigation-item"><a href="#">About</a></li>
+                            <li className="header-navigation-item"><a href="#">Projects</a></li>
                             <li className="header-navigation-item"><a href="#">Contacts</a></li>
                         </ul>
                     </nav>

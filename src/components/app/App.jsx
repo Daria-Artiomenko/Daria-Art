@@ -1,5 +1,6 @@
+import Header from '../header/Header';
+import Promo from '../promo/Promo';
 
-import Header from '../header/Header'
 import './App.scss'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <Header/>
+      <Promo/>
     </>
 
   )
