@@ -1,0 +1,36 @@
+.header {
+    min-height: 130px;
+    background-color: #171717;
+    &-wrapper {
+        color: #E5E5E5;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 130px;
+    }
+    &-frontend {
+        font-size: 14px;
+        line-height: 193%;
+    }
+    &-CV {
+        font-size: 14px;
+        line-height: 193%;
+        &:hover {
+            color: #B8EFD8;
+        }
+    }
+    &-navigation{
+        &-items {
+            display: flex;
+            gap: 32px;
+        }
+        &-item {
+            font-size: 15px;
+            line-height: 133%;
+            &:hover {
+                color: #B8EFD8;
+            }
+        }
+    }
+
+}
