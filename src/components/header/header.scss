@@ -1,12 +1,14 @@
 .header {
-    min-height: 130px;
+    position: fixed;
+    min-height: 100px;
+    width: 100%;
     background-color: #171717;
     &-wrapper {
         color: #E5E5E5;
         display:flex;
         justify-content: space-between;
         align-items: center;
-        min-height: 130px;
+        min-height: 100px;
     }
     &-frontend {
         font-size: 14px;

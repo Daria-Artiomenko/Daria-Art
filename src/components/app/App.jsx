@@ -1,5 +1,6 @@
 import About from '../about/About';
 import Header from '../header/Header';
+import Projects from '../projects/Projects';
 import Promo from '../promo/Promo';
 
 import './App.scss'
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <Promo/>
       <About/>
+      <Projects/>
     </>
 
   )

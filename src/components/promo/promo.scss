@@ -3,17 +3,20 @@
     &-wrapper {
         display: flex;
         justify-content: center;
-        padding-top: 80px;
+        padding-top: 164px;
         gap: 75px;
-        align-items: center;
     }
     &-text {
         max-width: 576px;
     }
     &-hello {
+        width: 12ch;
+        overflow: hidden;
         font-size: 48px;
         line-height: 267%;
         color: #e5e5e5;
+        white-space: nowrap;
+        animation: printed-text 2s steps(12);
     }
     &-info {
         margin-top: 26px;
@@ -27,5 +30,11 @@
         border-radius: 4px;
         width: 263px;
         height: 350px;
+    }
+}
+
+@keyframes printed-text {
+    from {
+        width: 0%;
     }
 }
