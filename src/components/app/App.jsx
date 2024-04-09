@@ -1,3 +1,4 @@
+import About from '../about/About';
 import Header from '../header/Header';
 import Promo from '../promo/Promo';
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header/>
       <Promo/>
+      <About/>
     </>
 
   )

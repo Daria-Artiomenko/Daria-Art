@@ -1,0 +1,10 @@
+.skills-item {
+    img {
+        width: 80px;
+        height: 80px;
+        &:hover {
+            transform: translateY(-20px);
+            transition: 0.35s all;
+        }
+    }
+}

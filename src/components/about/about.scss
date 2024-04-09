@@ -1,0 +1,31 @@
+.about {
+    background: #333;
+    min-height: 753px;
+    padding: 100px 0;
+    &-title {
+        text-align: center;
+        font-size: 36px;
+        line-height: 106%;
+        color: #e5e5e5;
+    }
+    .skills {
+        margin-top: 200px;
+    }
+    &-text {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 150%;
+        color: #e5e5e5;
+        max-width: 745px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .skills-items{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+}
