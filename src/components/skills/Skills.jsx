@@ -1,10 +1,11 @@
 import './skills.scss';
 
-const Skills = () => {
-    const skills = ["html", "css", "scss", "js", "ts", "react", "redux"];
+const Skills = ({skills, clazz}) => {
+
+    const small = clazz ? clazz : "";
     
     return skills.map((skill) => (
-        <li className="skills-item" key={skill}>
+        <li className={`skills-item ${small}`} key={skill}>
           <img src={`https://skillicons.dev/icons?i=${skill}`} alt="html" />
         </li>)
     )
