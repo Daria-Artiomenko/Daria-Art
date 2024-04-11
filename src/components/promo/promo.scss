@@ -15,17 +15,47 @@
         font-size: 48px;
         line-height: 267%;
         color: #e5e5e5;
-        // color:#55DB49;
         white-space: nowrap;
         animation: printed-text 2s steps(12);
     }
     &-info {
-        margin-top: 26px;
+        margin-top: 10px;
         font-family: "Montserrat", sans-serif;
         font-weight: 400;
         font-size: 18px;
         line-height: 150%;
         color: #171717;
+        span {
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+    &-CV {
+        display: flex;
+        gap: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 169%;
+        color: #171717;
+        margin-top: 36px;
+        &-title {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            color: #000;
+        }
+        &-view {
+            &:hover {
+                color: #55DB49;
+            }
+        }
+        &-download {
+            &:hover {
+                color: #55DB49;
+            }
+        }
     }
     &-avatar {
         border-radius: 4px;
