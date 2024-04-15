@@ -11,7 +11,7 @@ const projectData = [
     description: "Project based on APIs - currencyapi and coinapi. In this web application, you can find out the current exchange rates, convert currencies, see the dynamics of currency changes over the period, as well as get acquainted with additional information about bank cards.",
     tech_stack: ["react", "scss"],
     github_link: "https://github.com/Daria-Artiomenko/coins_and_currencies",
-    deployment_link: "",
+    deployment_link: "https://currencies-and-coins.netlify.app/",
     img: currency
     },
     {
