@@ -10,7 +10,6 @@
         max-width: 576px;
     }
     &-hello {
-        width: 12ch;
         overflow: hidden;
         font-size: 48px;
         line-height: 267%;
@@ -67,5 +66,8 @@
 @keyframes printed-text {
     from {
         width: 0%;
+    }
+    to {
+        width: 100%;
     }
 }
