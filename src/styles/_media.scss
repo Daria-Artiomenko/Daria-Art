@@ -1,0 +1,39 @@
+@media(max-width: 1300px) {
+
+
+}
+@media(max-width: 1200px) {
+
+    
+}
+@media (max-width: 991px) {
+    //header
+    .header {
+        &-frontend {
+            font-size: 12px;
+        }
+        &-navigation{
+            &-items {
+                gap: 28px;
+            }
+            &-item {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    //header
+
+}
+@media (max-width: 575px) {
+    //header
+    .header {
+        &-navigation{
+            &-items {
+                gap: 20px;
+            }
+        }
+    }
+}
