@@ -1,5 +1,5 @@
 import './promo.scss';
-import avatar from '../../assets/img/avatar.jpg';
+import avatar from '../../assets/img/avatar-2.jpeg';
 import cv from '../../assets/pdf/CV_Darya_Artyomenko.pdf';
 const Promo = () => {
     return (
