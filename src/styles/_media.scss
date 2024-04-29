@@ -1,7 +1,4 @@
-@media(max-width: 1300px) {
 
-
-}
 @media(max-width: 1200px) {
     //projects
     .portfolio {
@@ -101,6 +98,22 @@
                 gap: 30px;
                 margin-top: 30px;
             }
+        }
+    }
+    //contacts
+    .contacts {
+        &-title {
+            font-size: 28px;
+        }
+        &-text {
+            font-size: 16px;
+        }
+
+        &-phone {
+            font-size: 14px;
+        }
+        &-email {
+            font-size: 14px;
         }
     }
 }
@@ -328,6 +341,21 @@
             }
         }
     }
-
+        //contacts
+        .contacts {
+            &-title {
+                font-size: 20px;
+            }
+            &-text {
+                font-size: 14px;
+            }
+    
+            &-phone {
+                font-size: 12px;
+            }
+            &-email {
+                font-size: 12px;
+            }
+        }
 
 }
